@@ -1,0 +1,53 @@
+{
+  "header": {
+    "Login": "Login",
+    "Home": "Home",
+    "Prices": "Prices",
+    "Call Sales": "Call Sales",
+    "Track your shipment": "Track your shipment"
+  },
+  "deliveryDetails": {
+    "promisedDate": "Delivery promised on",
+    "merchantName": "Merchant name",
+    "lastUpdate": "Last update",
+    "shipmentNumber": "Shipment number",
+    "delivered": "Delivered",
+    "notDelivered": "Not delivered",
+    "cancelled": "Cancelled"
+  },
+  "address": {
+    "deliveryAddress": "Delivery address",
+    "deliveryAddressDetails": "Hawamdia_Giza_Egypt",
+    "reportProblemBtn": "Report a problem",
+    "reportProblem": "Is there a problem with your shipment"
+  },
+  "transitDetails": {
+    "details": "The Shipment Details",
+    "time": "Time",
+    "date": "Date",
+    "branch": "Branch",
+    "noHub": "No hub mentioned in API"
+  },
+  "data": {
+    "CANCELLED": "The shipment has been canceled from the merchant",
+    "TICKET_CREATED": "TICKET_CREATED",
+    "PACKAGE_RECEIVED": "PACKAGE_RECEIVED",
+    "OUT_FOR_DELIVERY": "OUT_FOR_DELIVERY",
+    "IN_TRANSIT": "IN_TRANSIT",
+    "WAITING_FOR_CUSTOMER_ACTION": "WAITING_FOR_CUSTOMER_ACTION",
+    "NOT_YET_SHIPPED": "NOT_YET_SHIPPED",
+    "DELIVERED_TO_SENDER": "DELIVERED_TO_SENDER",
+    "DELIVERED": "DELIVERED",
+    "Cairo Sorting Facility": "Cairo Sorting Facility",
+    "Tanta Hub": "Tanta Hub",
+    "Haram Hub": "Haram Hub",
+    "FM & Reverse Hub": "FM & Reverse Hub",
+    "Out for Recieved": "Out for Recieved"
+  },
+  "Bar": {
+    "CANCELLED": "The shipment has been canceled from the merchant",
+    "Recieved":"The shipment has been recieved to the merchant",
+    "Created":"The shipment has been Created"
+
+  }
+}

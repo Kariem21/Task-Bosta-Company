@@ -1,0 +1,58 @@
+{
+  "header":{
+    "Login":"تسجيل الدخول",
+    "Home":"الرئيسية",
+    "Prices":"الاسعار",
+    "Call Sales":"كلم المبيعات",
+    "Track your shipment":"تتبع شحنتك"
+
+  },
+    "deliveryDetails": {
+      "promisedDate": "التسليم الموعود في",
+      "merchantName": "اسم التاجر",
+      "lastUpdate": "آخر تحديث",
+      "shipmentNumber": "رقم الشحنة",
+      "delivered": "تم تسليم الشحنه",
+      "notDelivered": "لم يتم تسليم الشحنه",
+      "cancelled": "تم الغاء الشحنه"
+    },
+    "address": {
+      "deliveryAddress": "عنوان التسليم",
+      "deliveryAddressDetails": "الحوامديه_الجيزه_مصر",
+
+      "reportProblemBtn": "الإبلاغ عن مشكلة",
+      "reportProblem":"هل يوجد مشكله في شحنتك"
+
+    },
+    "transitDetails": {
+      "details": "تفاصيل الشحنه",
+      "time": "الوقت",
+      "date": "التاريخ",
+      "branch": "الفرع",
+      "noHub": "لا يوجد فرع مذكور في البيانات"
+    },
+    "data":{
+     "CANCELLED": "لم يتم استلام الشحنه",
+     "TICKET_CREATED":"تم انشاء الشحنه  ",
+     "PACKAGE_RECEIVED":"تم التسليم",
+     "OUT_FOR_DELIVERY":"الشحنه في طريقها للتوصيل",
+     "IN_TRANSIT":" الشحنه خرجت للتسليم",
+     "WAITING_FOR_CUSTOMER_ACTION":" في انتظار إجراء العميل",
+     "NOT_YET_SHIPPED":"لم يتم شحنها بعد",
+     "DELIVERED_TO_SENDER":"تم التسليم إلى التاجر",
+     "DELIVERED":"تم التسليم",
+     "Cairo Sorting Facility":"منشأة القاهرة للفرز",
+     "Tanta Hub":"محور طنطا",
+     "Haram Hub":"محور الهرم",
+     "FM & Reverse Hub": "FM & Reverse Hub",
+     "Out for Recieved":"الشحنه خرجت للتسليم"
+    },
+    "Bar": {
+      "CANCELLED":"تم الغاء الشحنه من التاجر",
+      "Recieved":"تم استلام الشحنه من التاجر",
+      "Created":"تم انشاء الشحنه"
+
+    }
+    
+  }
+  

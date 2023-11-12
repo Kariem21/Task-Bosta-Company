@@ -1,0 +1,214 @@
+.topData{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-bottom: 1px solid #efefef;
+}
+.deliveryContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.DeliveryCycleContainer{
+     width: 100%;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border: 1px solid #efefef;
+    gap: 50px;
+}
+.DivContTitleAndDataDeliveryDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ColorGray{
+    color:gray;
+}
+.FontBold{
+    font-weight: bold;
+}
+.ColorRed{
+    color:var(--red-color);
+    /* font-size: 20px; */
+}
+.ContainerAddressAndTableData{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.DeliveryDetailsCycleData{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Address{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.DivForTableData{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    overflow: auto;
+    max-height: 400px;
+}
+
+.tableData {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableData th, .tableData td {
+         /* border: 1px solid #ddd; */
+    padding: 15px;
+    text-align: center;
+    text-align: center;
+  }
+  
+  .tableData th {
+    background-color: #f2f2f2;
+    color: gray;      }
+  .tableData tr{
+    border: 1px solid #e6e6e6;    
+  }
+
+  .containerAddress{
+    width: 100%;
+    border: 1px solid #efefef;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+  }
+  .containerAddress p{
+    text-align: end;
+    padding: 10px;
+    color: #5F687E;
+  }
+  .colorLikeGray{
+    color:#5F687E
+  }
+
+  .ContainerProblems{
+    width: 100%;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+  }
+  .question button{
+    border: none;
+    background-color: var(--red-color);
+    color: white;
+    padding: 7px 16px;
+    width: 90%;
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  .statusProgressBar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+  }
+  .ContainerStatus{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .statusIcon {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .statusIcon.active {
+    color: red;
+  }
+  
+  .progressBar {
+    height: 10px;
+    background-color: red;
+    margin-left: auto;
+    transition: width 0.5s ease;
+  }
+  .ContainerCancelledInBar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+
+
+
+
+.ContainerStatus svg{
+  font-size: 20px;
+}
+
+  /* mediaQuery */
+
+  @media screen and (max-width: 992px) {
+    .ContainerAddressAndTableData{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .deliveryContainer{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+    .DeliveryDetailsCycleData {
+      width: 100%;
+    }
+    .Address {
+      width: 100%;}
+  }
+  
